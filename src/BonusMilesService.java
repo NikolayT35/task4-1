@@ -1,14 +1,13 @@
 public class BonusMilesService {
 
-    public int calculate(int price,int eachSpentMoney, int bonus) {
-            
-    int miles = price / eachSpentMoney * bonus;
-    int price = 10000;
-    int eachSpentMoney = 20;
-    int bonus = 1;
+    public int calculate(int price) {
+
+        int bonus = 1;
+        int eachSpentMonty = 20;
+        int miles = price / eachSpentMonty * bonus;
 
         return miles;
-}
+    }
 }
 
 
