@@ -1,11 +1,9 @@
 public class BonusMilesService {
 
-    public int calculate(int price) {
-        return price;
-    }
-
-    int miles = price / eachSpentMoney;
-    int price = 100;
+    public int calculate(int price,int eachSpentMoney, int bonus) {
+            
+    int miles = price / eachSpentMoney * bonus;
+    int price = 10000;
     int eachSpentMoney = 20;
     int bonus = 1;
 
@@ -13,13 +11,4 @@ public class BonusMilesService {
 }
 }
 
-//public class Main {
- //   public static void main(String[] args) {
- //       int ticketcCost = 100;
- //       int eachSpentMoney = 20;
- //       int bonus = 1;
- //       int mile = ticketcCost / eachSpentMoney * bonus;
 
-  //      System.out.println(mile);
-  //  }
-//}
